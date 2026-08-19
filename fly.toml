@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for redfront-jleuyq on 2026-08-17T18:28:00Z
+# fly.toml app configuration file generated for redaodlpawas on 2026-08-19T21:08:39Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'redfront-jleuyq'
-primary_region = 'ams'
+app = 'redaodlpawas'
+primary_region = 'ord'
 
 [build]
 
 [http_service]
-  internal_port = 80
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
